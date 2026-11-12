@@ -67,7 +67,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'webmock', '~> 3.14'
 
   s.add_development_dependency 'nokogiri', '~>1.10'
-  s.add_development_dependency 'rack', '~> 3.0.0'
+  s.add_development_dependency 'rack', '~> 3.2.8'
   s.add_development_dependency 'rack-test', '> 0.7', '~> 2.1.0'
 
   s.files         = `git ls-files`.split("\n").reject { |f| f.start_with?('spec', 'features') }
